@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/send', 'ContactEntryController@send');
+Route::get('/send', 'ContactEntryController@send')->name('contact-entry.send');
