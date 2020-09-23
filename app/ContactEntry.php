@@ -6,9 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class ContactEntry extends Model
 {
-    public function sendMessage()
+    protected $fillable = [
+        'name', 'email', 'message', 'date_contacted'
+    ];
+
+    public static function sendMessage(array $attributes)
     {
-        $this->date_contacted = date('Y-m-d');
-        $this->save();
+        $entry = static::query()->create($attributes);
+        $entry->date_contacted = date('Y-m-d');
+        $entry->save();
+
+        return $entry;
     }
 }

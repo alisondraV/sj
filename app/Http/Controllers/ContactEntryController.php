@@ -2,12 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\ContactEntry;
+use App\Http\Requests\SendContactEntryRequest;
+use App\Mail\ContactEntryMail;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Mail;
 
 class ContactEntryController extends Controller
 {
-    public function send()
+    public function send(SendContactEntryRequest $request)
     {
-        return 123;
+        $newEntry = ContactEntry::sendMessage($request->validated());
+
+        $mailJob = Mail::to(config('contacts.email_to'));
+        $mailJob->queue(new ContactEntryMail($newEntry));
+
+        return response()->json(Response::HTTP_CREATED);
     }
 }
