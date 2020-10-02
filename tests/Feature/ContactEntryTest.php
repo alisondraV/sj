@@ -3,9 +3,9 @@
 namespace Tests\Feature;
 
 use App\ContactEntry;
+use App\Mail\ContactEntryMail;
 use \Illuminate\Http\Response;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Facades\Mail;
 use Tests\TestCase;
 
@@ -19,19 +19,16 @@ class ContactEntryTest extends TestCase
         'message' => 'Please repaint my living room',
     ];
 
-    public function testItSetsTheDateContacted()
-    {
-        $response = $this->postJson(route('contact-entry.send'), $this->validEntry);
-        $response->assertStatus(Response::HTTP_CREATED);
-
-        $entry = ContactEntry::first();
-        $this->assertEquals(date('M d, Y'), $entry->date_contacted);
-    }
-
     public function testItSendsEntryEmail()
     {
-        $response = $this->get('/send');
+        Mail::fake();
 
-        $response->assertStatus(200);
+        $this->postJson(route('contact-entry.send'), $this->validEntry)
+            ->assertStatus(Response::HTTP_CREATED);
+
+        $entry = ContactEntry::first();
+        $this->assertEquals(today()->toDateString(), $entry->date_contacted);
+
+        Mail::assertQueued(ContactEntryMail::class);
     }
 }

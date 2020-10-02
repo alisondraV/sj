@@ -3,7 +3,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Arr;
 
 class ContactEntry extends Model
 {
@@ -15,11 +14,9 @@ class ContactEntry extends Model
 
     public static function sendMessage(array $attributes)
     {
-        $date = date('M d, Y');
-
         return static::query()->create(
                 array_merge($attributes, [
-                'date_contacted' => $date
+                'date_contacted' => today()->toDateString()
             ])
         );
     }
