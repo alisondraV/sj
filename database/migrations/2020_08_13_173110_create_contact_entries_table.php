@@ -19,7 +19,6 @@ class CreateContactEntriesTable extends Migration
             $table->string('email');
             $table->text('message');
             $table->date('date_contacted');
-            $table->timestamps();
         });
     }
 

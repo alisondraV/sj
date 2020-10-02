@@ -3,19 +3,24 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
 
 class ContactEntry extends Model
 {
+    public $timestamps = false;
+
     protected $fillable = [
         'name', 'email', 'message', 'date_contacted'
     ];
 
     public static function sendMessage(array $attributes)
     {
-        $entry = static::query()->create($attributes);
-        $entry->date_contacted = date('Y-m-d');
-        $entry->save();
+        $date = date('M d, Y');
 
-        return $entry;
+        return static::query()->create(
+                array_merge($attributes, [
+                'date_contacted' => $date
+            ])
+        );
     }
 }

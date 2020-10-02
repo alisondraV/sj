@@ -21,11 +21,11 @@ class ContactEntryTest extends TestCase
 
     public function testItSetsTheDateContacted()
     {
-        $this->postJson(route('contact-entry.send'), $this->validEntry)
-            ->assertStatus(Response::HTTP_CREATED);
+        $response = $this->postJson(route('contact-entry.send'), $this->validEntry);
+        $response->assertStatus(Response::HTTP_CREATED);
 
-        $entry = ContactEntry::all()->first();
-        $this->assertEquals(date('Y-m-d'), $entry->date_contacted);
+        $entry = ContactEntry::first();
+        $this->assertEquals(date('M d, Y'), $entry->date_contacted);
     }
 
     public function testItSendsEntryEmail()
