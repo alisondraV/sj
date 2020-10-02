@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use App\ContactEntry;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
@@ -12,7 +13,7 @@ class ContactEntryMail extends Mailable
 
     public $entry;
 
-    public function __construct($entry)
+    public function __construct(ContactEntry $entry)
     {
         $this->entry = $entry;
     }
