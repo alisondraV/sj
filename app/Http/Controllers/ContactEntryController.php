@@ -10,13 +10,13 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactEntryController extends Controller
 {
-    public function send(SendContactEntryRequest $request)
+    public function store(SendContactEntryRequest $request)
     {
         $newEntry = ContactEntry::sendMessage($request->validated());
 
-        $mailJob = Mail::to(config('contacts.email_to'));
-        $mailJob->queue(new ContactEntryMail($newEntry));
+//        $mailJob = Mail::to(config('contacts.email_to'));
+//        $mailJob->queue(new ContactEntryMail($newEntry));
 
-        return response()->json(Response::HTTP_CREATED);
+        return response()->json($newEntry, Response::HTTP_CREATED);
     }
 }
