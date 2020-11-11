@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script defer src="{{ mix('js/app.js') }}"></script>
 
         <title>SJ's Painting</title>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            {{$email ?? ''}}
+        <div id="app">
+            <main-page />
         </div>
     </body>
 </html>
