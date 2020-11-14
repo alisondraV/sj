@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Update phpunit.xml">
+    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Add assets">
+      <change afterPath="$PROJECT_DIR$/resources/js/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/AppNavigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/MainPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +163,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -166,6 +172,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/components" />
+      <recent name="$PROJECT_DIR$/resources/js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ContactEntryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -192,8 +204,23 @@
       <option name="presentableId" value="Default" />
       <updated>1605055806819</updated>
       <workItem from="1605055808406" duration="598000" />
-      <workItem from="1605155721617" duration="633000" />
+      <workItem from="1605155721617" duration="5130000" />
     </task>
+    <task id="LOCAL-00001" summary="Import css">
+      <created>1605379190380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379190381</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add assets">
+      <created>1605379204046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605379204046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +237,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Import css" />
+    <MESSAGE value="Add assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="142" key="#CLI_Interpreters" timestamp="1605056664845">
@@ -248,9 +280,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1605055859268" />
-    <state x="469" y="235" width="598" height="490" key="find.popup" timestamp="1605054315387">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="547" y="274" width="698" height="572" key="find.popup" timestamp="1605385935511">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="547" y="274" width="698" height="572" key="find.popup/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605385935511" />
     <state x="469" y="235" width="598" height="490" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1605054315387" />
     <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1605206399177">
       <screen x="0" y="0" width="1536" height="960" />

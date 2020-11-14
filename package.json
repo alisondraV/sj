@@ -24,6 +24,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "tailwindcss": "^1.9.4"
+        "laravel-mix-alias": "^1.0.2",
+        "tailwindcss": "^1.9.4",
+        "vue-scroll-snap": "^0.1.9"
     }
 }
