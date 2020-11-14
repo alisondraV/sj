@@ -1,14 +1,16 @@
 <template>
   <vue-scroll-snap :fullscreen="true">
   <div>
-    <div class="item"><app-navigation/></div>
+      <div class="item"><app-navigation/></div>
       <div class="item" id="main"><home-main/></div>
+      <div class="item" id="about"><about-us/></div>
   </div>
   </vue-scroll-snap>
 </template>
 
 <script>
   import AppNavigation from './components/AppNavigation';
+  import AboutUs from './components/AboutUs';
   import HomeMain from './components/MainPage';
   import VueScrollSnap from 'vue-scroll-snap';
 
@@ -16,6 +18,7 @@
     name: 'App',
     components:{
       AppNavigation,
+      AboutUs,
       HomeMain,
       VueScrollSnap
     }
