@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen flex justify-center items-center bg-black">
-        <div class="text-white">SJ's<br> Painting</div>
-        <div class="text-white">Let the Euro do it</div>
+        <p class="text-6xl text-white">SJ's<br> Painting</p>
+        <p class="text-3xl text-white">Let the Euro do it</p>
         <div>
             <img class="w-1/2" src="@assets/Bin.svg"/>
             <img class="animate w-1/4" src="@assets/Roller.svg"/>

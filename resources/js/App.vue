@@ -29,6 +29,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
   * {
+    @apply tracking-widest leading-relaxed;
     font-family: 'Comfortaa', regular, serif;
     padding: 0;
     margin: 0;
