@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen flex flex-row items-center mx-20">
+    <div class="h-screen flex flex-row items-center px-20">
         <div class="flex-1 flex justify-center">
             <img src="@assets/About.png" />
         </div>

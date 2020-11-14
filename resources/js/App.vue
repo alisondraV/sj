@@ -4,6 +4,7 @@
       <div class="item"><app-navigation/></div>
       <div class="item" id="main"><home-main/></div>
       <div class="item" id="about"><about-us/></div>
+      <div class="item" id="why"><why-us/></div>
   </div>
   </vue-scroll-snap>
 </template>
@@ -13,14 +14,16 @@
   import AboutUs from './components/AboutUs';
   import HomeMain from './components/MainPage';
   import VueScrollSnap from 'vue-scroll-snap';
+  import WhyUs from './components/WhyUs';
 
   export default {
     name: 'App',
     components:{
-      AppNavigation,
-      AboutUs,
-      HomeMain,
-      VueScrollSnap
+        AppNavigation,
+        AboutUs,
+        HomeMain,
+        VueScrollSnap,
+        WhyUs
     }
   };
 </script>
