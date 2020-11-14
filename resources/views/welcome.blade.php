@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="app">
-            <main-page />
+            <app />
         </div>
     </body>
 </html>
