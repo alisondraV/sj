@@ -1,24 +1,50 @@
 <template>
-    <div class="bg-black h-screen">
-        <div class="flex justify-center items-center">
-            <p class="text-white text-6xl">Contact Us</p>
-            <form method="post" @submit.prevent="sendEmail">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" placeholder="Name"/><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" placeholder="Email@example.com"/><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" rows="3" cols="50" placeholder="Message"/><br>
-                <div>
-                    <input type="submit" id="submit" value="Submit">
-                </div>
-            </form>
-        </div>
+    <div class="bg-black h-screen px-20 flex flex-col justify-center items-center">
+        <p class="text-white text-6xl mb-4">Contact Us</p>
+        <form method="post" @submit.prevent="sendEmail">
+            <label class="text-white text-lg">Name:<br>
+                <input
+                    class="p-1 rounded-lg text-white bg-transparent border border-white mt-2 mb-6 w-full"
+                    type="text"
+                    v-text="name"
+                ><br>
+            </label>
+            <label class="text-white text-lg">Email:<br>
+                <input
+                    class="p-1 rounded-lg text-white bg-transparent border border-white mt-2 mb-6 w-full"
+                    type="email"
+                    v-text="email"
+                ><br>
+            </label>
+            <label class="text-white text-lg">Message:<br>
+                <textarea
+                    class="p-1 rounded-lg text-white bg-transparent border border-white mt-2 mb-6"
+                    cols="50"
+                    rows="3"
+                    v-text="message"
+                /><br>
+            </label><br>
+            <div class="flex justify-center">
+                <input
+                    type="submit"
+                    id="submit"
+                    value="Submit"
+                    class="p-3 rounded-2xl bg-transparent border-2 border-white text-white text-lg w-1/3"
+                >
+            </div>
+        </form>
     </div>
 </template>
 
 <script>
 export default {
+    data() {
+        return {
+            name: '',
+            email: '',
+            message: ''
+        }
+    },
     methods: {
         sendEmail: (e) => {
             console.log('Send email');
