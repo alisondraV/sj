@@ -5,6 +5,7 @@
       <div class="item" id="main"><home-main/></div>
       <div class="item" id="about"><about-us/></div>
       <div class="item" id="why"><why-us/></div>
+      <div class="item" id="works"><our-works/></div>
       <div class="item" id="contact"><contact-us/></div>
   </div>
   </vue-scroll-snap>
@@ -15,6 +16,7 @@
   import AboutUs from './components/AboutUs';
   import ContactUs from './components/ContactUs';
   import HomeMain from './components/MainPage';
+  import OurWorks from './components/OurWorks';
   import VueScrollSnap from 'vue-scroll-snap';
   import WhyUs from './components/WhyUs';
 
@@ -25,6 +27,7 @@
         AboutUs,
         ContactUs,
         HomeMain,
+        OurWorks,
         VueScrollSnap,
         WhyUs
     }

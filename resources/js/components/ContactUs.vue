@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black h-screen px-20 flex flex-col justify-center items-center">
+    <div class="h-screen bg-black px-20 flex flex-col justify-center items-center">
         <p class="text-white text-6xl mb-4">Contact Us</p>
         <form method="post" @submit.prevent="sendEmail">
             <label class="text-white text-lg">Name:<br>
