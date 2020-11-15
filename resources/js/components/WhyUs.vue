@@ -1,6 +1,6 @@
 <template>
     <div class="h-screen bg-black px-20 flex flex-col justify-center">
-        <div class="text-white text-6xl">Why Us?</div>
+        <p class="text-white text-6xl">Why Us?</p>
         <div class="flex flex-row">
             <div v-for="(item, index) in items">
                 <why-reason
