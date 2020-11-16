@@ -4,22 +4,25 @@
         <form method="post" @submit.prevent="sendEmail">
             <label class="text-white text-lg">Name:<br>
                 <input
-                    class="p-1 rounded-lg text-white bg-transparent border border-white mt-2 mb-6 w-full"
+                    class="text-white bg-transparent border-b border-white mt-2 mb-6 w-full"
+                    placeholder="Please enter your name"
                     type="text"
                     v-text="name"
                 ><br>
             </label>
             <label class="text-white text-lg">Email:<br>
                 <input
-                    class="p-1 rounded-lg text-white bg-transparent border border-white mt-2 mb-6 w-full"
+                    class="text-white bg-transparent border-b border-white mt-2 mb-6 w-full"
+                    placeholder="Please enter your email"
                     type="email"
                     v-text="email"
                 ><br>
             </label>
             <label class="text-white text-lg">Message:<br>
                 <textarea
-                    class="p-1 rounded-lg text-white bg-transparent border border-white mt-2 mb-6"
+                    class="text-white bg-transparent border-b border-white mt-2 mb-6"
                     cols="50"
+                    placeholder="Please enter your message"
                     rows="3"
                     v-text="message"
                 /><br>
