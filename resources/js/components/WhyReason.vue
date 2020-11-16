@@ -1,8 +1,10 @@
 <template>
-    <table class="pa-3">
+    <table class="table-fixed">
         <tr>
-            <td><img :src="require(`@assets/${image}`)" width="90px"></td>
-            <td>
+            <td class="pr-5 w-1/4 px-4 py-2">
+                <img :src="require(`@assets/${image}`)" width="100px">
+            </td>
+            <td class="w-3/4 px-4 py-2">
                 <div class="text-white">{{ title }}</div>
                 <div class="text-white">{{ description }}</div>
             </td>

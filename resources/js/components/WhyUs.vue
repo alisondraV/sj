@@ -1,13 +1,14 @@
 <template>
     <div class="h-screen bg-black px-20 flex flex-col justify-center">
-        <p class="text-white text-6xl">Why Us?</p>
-        <div class="flex flex-row">
+        <p class="text-white text-6xl mb-4">Why Us?</p>
+        <div class="flex flex-wrap">
             <div v-for="(item, index) in items">
                 <why-reason
+                    :description="item.description"
+                    :image="item.image"
                     :key="index"
                     :title="item.title"
-                    :description="item.description"
-                    :image="item.image">
+                >
                 </why-reason>
             </div>
         </div>
