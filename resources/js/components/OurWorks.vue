@@ -1,11 +1,11 @@
 <template>
-     <div class="h-screen">
-        <div class="text-6xl">Our Works</div>
+     <div class="h-screen flex flex-col items-center justify-center">
+        <div class="text-6xl mb-4">Our Works</div>
         <carousel
             :per-page="1"
             paginationActiveColor="black"
             paginationColor="grey"
-            class="align-content-center"
+            class="w-1/2"
             paginationPosition="bottom-overlay"
         >
             <template v-for="(item, index) in items">
