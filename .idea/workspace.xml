@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Add assets">
-      <change afterPath="$PROJECT_DIR$/resources/js/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/AppNavigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Update WhyUs page styling">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/MainPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ContactUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ContactUs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +158,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
@@ -204,7 +202,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605055806819</updated>
       <workItem from="1605055808406" duration="598000" />
-      <workItem from="1605155721617" duration="5130000" />
+      <workItem from="1605155721617" duration="17061000" />
+      <workItem from="1605491650127" duration="64000" />
+      <workItem from="1605573667348" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="Import css">
       <created>1605379190380</created>
@@ -220,7 +220,98 @@
       <option name="project" value="LOCAL" />
       <updated>1605379204046</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Set up aliases and bring in scrolling">
+      <created>1605386288976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386288976</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update starting page and add navigation">
+      <created>1605386338262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386338262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update navigation styling">
+      <created>1605387694030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605387694030</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add AboutUs page">
+      <created>1605387710144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605387710144</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update MainPage and AboutUs styling">
+      <created>1605391276404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605391276404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update MainPage styling">
+      <created>1605391981281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605391981281</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add WhyUs page">
+      <created>1605394477498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605394477498</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add contact page">
+      <created>1605463872934</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605463872934</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Style contact form">
+      <created>1605465139081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605465139081</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add OurWorks page">
+      <created>1605466203649</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605466203649</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Style OurWorks page">
+      <created>1605486178567</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605486178567</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update contact page styling">
+      <created>1605486200057</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605486200057</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update WhyUs page styling">
+      <created>1605486871310</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605486871310</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,53 +332,77 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Import css" />
     <MESSAGE value="Add assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assets" />
+    <MESSAGE value="Set up aliases and bring in scrolling" />
+    <MESSAGE value="Update starting page and add navigation" />
+    <MESSAGE value="Update navigation styling" />
+    <MESSAGE value="Add AboutUs page" />
+    <MESSAGE value="Update MainPage and AboutUs styling" />
+    <MESSAGE value="Update MainPage styling" />
+    <MESSAGE value="Add WhyUs page" />
+    <MESSAGE value="Add contact page" />
+    <MESSAGE value="Style contact form" />
+    <MESSAGE value="Add OurWorks page" />
+    <MESSAGE value="Style OurWorks page" />
+    <MESSAGE value="Update contact page styling" />
+    <MESSAGE value="Update WhyUs page styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update WhyUs page styling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="142" key="#CLI_Interpreters" timestamp="1605056664845">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="355" y="142" key="#CLI_Interpreters/0.0.1536.960@0.0.1536.960" timestamp="1605056664845" />
-    <state x="232" y="142" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605056672182">
+    <state x="232" y="142" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605576183560">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="232" y="142" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1605056672182" />
+    <state x="232" y="142" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1605576183560" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1605054034690">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1536.960@0.0.1536.960" timestamp="1605054034690" />
-    <state width="1494" height="344" key="GridCell.Tab.0.bottom" timestamp="1605056843113">
+    <state width="1494" height="344" key="GridCell.Tab.0.bottom" timestamp="1605576479910">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="344" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1605056843113" />
-    <state width="1494" height="344" key="GridCell.Tab.0.center" timestamp="1605056843112">
+    <state width="1494" height="344" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1605576479910" />
+    <state width="1494" height="344" key="GridCell.Tab.0.center" timestamp="1605576479909">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="344" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1605056843112" />
-    <state width="1494" height="344" key="GridCell.Tab.0.left" timestamp="1605056843111">
+    <state width="1494" height="344" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1605576479909" />
+    <state width="1494" height="344" key="GridCell.Tab.0.left" timestamp="1605576479907">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="344" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1605056843111" />
-    <state width="1494" height="344" key="GridCell.Tab.0.right" timestamp="1605056843112">
+    <state width="1494" height="344" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1605576479907" />
+    <state width="1494" height="344" key="GridCell.Tab.0.right" timestamp="1605576479910">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="344" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1605056843112" />
-    <state x="580" y="207" key="RollbackChangesDialog" timestamp="1605048816134">
+    <state width="1494" height="344" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1605576479910" />
+    <state width="229" height="457" key="HiddenNamespacesPopup" timestamp="1605577422986">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
+    <state width="229" height="457" key="HiddenNamespacesPopup/0.0.1536.960@0.0.1536.960" timestamp="1605577422986" />
+    <state x="677" y="242" key="RollbackChangesDialog" timestamp="1605386660037">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="677" y="242" key="RollbackChangesDialog/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605386660037" />
     <state x="580" y="207" key="RollbackChangesDialog/0.0.1536.960@0.0.1536.960" timestamp="1605048816134" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1605055859268">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1605055859268" />
-    <state x="547" y="274" width="698" height="572" key="find.popup" timestamp="1605385935511">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="547" y="274" width="698" height="572" key="find.popup/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605385935511" />
-    <state x="469" y="235" width="598" height="490" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1605054315387" />
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1605206399177">
+    <state x="425" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605486207092">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1605206399177" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605386348681" />
+    <state x="425" y="257" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1605486207092" />
+    <state x="469" y="256" width="656" height="640" key="find.popup" timestamp="1605575439562">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="547" y="274" width="698" height="572" key="find.popup/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605389529383" />
+    <state x="469" y="256" width="656" height="640" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1605575439562" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1605574582687">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="505" y="246" width="782" height="789" key="search.everywhere.popup/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605387729350" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1605574582687" />
   </component>
 </project>

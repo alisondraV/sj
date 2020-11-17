@@ -7,7 +7,7 @@
                     class="text-white bg-transparent border-b border-white mt-2 mb-6 w-full"
                     placeholder="Please enter your name"
                     type="text"
-                    v-text="name"
+                    v-model="contact.name"
                 ><br>
             </label>
             <label class="text-white text-lg">Email:<br>
@@ -15,7 +15,7 @@
                     class="text-white bg-transparent border-b border-white mt-2 mb-6 w-full"
                     placeholder="Please enter your email"
                     type="email"
-                    v-text="email"
+                    v-model="contact.email"
                 ><br>
             </label>
             <label class="text-white text-lg">Message:<br>
@@ -24,7 +24,7 @@
                     cols="50"
                     placeholder="Please enter your message"
                     rows="3"
-                    v-text="message"
+                    v-model="contact.message"
                 /><br>
             </label><br>
             <div class="flex justify-center">
@@ -40,17 +40,19 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
     data() {
         return {
-            name: '',
-            email: '',
-            message: ''
+            contact: {}
         }
     },
     methods: {
-        sendEmail: (e) => {
-            console.log('Send email');
+        sendEmail() {
+            axios.post('/send', this.contact)
+                .then(response => alert(response))
+                .catch(error => alert(error));
         }
     }
 }
