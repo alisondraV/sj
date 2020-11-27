@@ -1,8 +1,11 @@
 <template>
     <div class="h-screen bg-black px-20 flex flex-col justify-center">
         <p class="text-white text-6xl mb-4">Why Us?</p>
-        <div class="flex flex-wrap">
-            <div v-for="(item, index) in items">
+        <section class="grid grid-cols-2 gap-4">
+            <div
+                v-for="(item, index) in items"
+                :key="`${item.title}`"
+            >
                 <why-reason
                     :description="item.description"
                     :image="item.image"
@@ -11,7 +14,7 @@
                 >
                 </why-reason>
             </div>
-        </div>
+        </section>
     </div>
 </template>
 
