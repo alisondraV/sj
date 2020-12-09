@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Update mail template">
+    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Update WhyUs page structure">
+      <change afterPath="$PROJECT_DIR$/resources/assets/Menu.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/WhyReason.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/WhyReason.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/WhyUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/WhyUs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/AppNavigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AppNavigation.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +158,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -169,14 +169,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/assets" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/js/components" />
       <recent name="$PROJECT_DIR$/resources/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -208,7 +208,8 @@
       <workItem from="1605491650127" duration="64000" />
       <workItem from="1605573667348" duration="6559000" />
       <workItem from="1606237402824" duration="63000" />
-      <workItem from="1606489866905" duration="3997000" />
+      <workItem from="1606489866905" duration="6034000" />
+      <workItem from="1606914094996" duration="3407000" />
     </task>
     <task id="LOCAL-00001" summary="Import css">
       <created>1605379190380</created>
@@ -336,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605624833658</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update WhyUs page structure">
+      <created>1606501871351</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606501871351</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +381,8 @@
     <MESSAGE value="Send emails through the form using axios to hit the BE" />
     <MESSAGE value="Update README, .env.example and favicon" />
     <MESSAGE value="Update mail template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update mail template" />
+    <MESSAGE value="Update WhyUs page structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update WhyUs page structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="142" key="#CLI_Interpreters" timestamp="1605056664845">
@@ -426,11 +435,11 @@
     </state>
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605386348681" />
     <state x="425" y="257" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1605626299071" />
-    <state x="469" y="257" width="656" height="581" key="find.popup" timestamp="1606490768856">
+    <state x="469" y="259" width="656" height="548" key="find.popup" timestamp="1607474109441">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="547" y="274" width="698" height="572" key="find.popup/-72.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1605389529383" />
-    <state x="469" y="257" width="656" height="581" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1606490768856" />
+    <state x="469" y="259" width="656" height="548" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1607474109441" />
     <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1606490000908">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
