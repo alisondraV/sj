@@ -1,5 +1,5 @@
 <template>
-     <div class="h-screen flex flex-col items-center justify-center">
+     <div class="min-h-screen flex flex-col items-center justify-center">
         <div class="text-6xl mb-4">Our Works</div>
         <carousel
             :per-page="1"

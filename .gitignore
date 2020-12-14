@@ -4,12 +4,11 @@
 public/js
 public/css
 public/images
-/Old SJ
 /storage/*.key
 /vendor
+/.idea
 .env
 .env.backup
-.idea
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml

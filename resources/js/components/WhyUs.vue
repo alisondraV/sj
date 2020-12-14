@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen bg-black px-20 flex flex-col justify-center">
+    <div class="min-h-screen bg-black px-20 flex flex-col justify-center">
         <p class="text-white text-6xl mb-4">Why Us?</p>
         <section class="grid grid-cols-2 gap-4">
             <div

@@ -1,7 +1,7 @@
 <template>
-    <div class="h-screen flex flex-row items-center px-20">
+    <div class="min-h-screen flex flex-row items-center px-20">
         <div class="flex-1 flex justify-center">
-            <img src="@assets/About.png" />
+            <img src="@assets/About.png" alt="About Us"/>
         </div>
         <div class="flex-1">
             <p class="text-5xl tracking-widest text-right m-8">About Us</p>
