@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Update WhyUs page structure">
-      <change afterPath="$PROJECT_DIR$/resources/assets/Menu.svg" afterDir="false" />
+    <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Make navigation more responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/AppNavigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AppNavigation.vue" afterDir="false" />
     </list>
@@ -210,6 +209,7 @@
       <workItem from="1606237402824" duration="63000" />
       <workItem from="1606489866905" duration="6034000" />
       <workItem from="1606914094996" duration="3407000" />
+      <workItem from="1607908097013" duration="555000" />
     </task>
     <task id="LOCAL-00001" summary="Import css">
       <created>1605379190380</created>
@@ -344,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606501871351</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add classes for mobile-friendly design">
+      <created>1607474167455</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607474167455</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +389,9 @@
     <MESSAGE value="Update README, .env.example and favicon" />
     <MESSAGE value="Update mail template" />
     <MESSAGE value="Update WhyUs page structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update WhyUs page structure" />
+    <MESSAGE value="Add mobile-friendly navbar" />
+    <MESSAGE value="Make navigation more responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make navigation more responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="142" key="#CLI_Interpreters" timestamp="1605056664845">
@@ -397,6 +406,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1536.960@0.0.1536.960" timestamp="1605054034690" />
+    <state x="582" y="386" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1607474256612">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="582" y="386" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1536.960@0.0.1536.960" timestamp="1607474256612" />
     <state width="1494" height="344" key="GridCell.Tab.0.bottom" timestamp="1605665194513">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

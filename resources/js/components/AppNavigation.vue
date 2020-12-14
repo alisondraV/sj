@@ -1,21 +1,21 @@
 <template>
     <nav class="bg-black flex p-3 fixed w-screen">
-        <div class="flex-1 flex flex-row items-center md:ml-12">
-            <img class="w-20 mx-4" src="@assets/Logo.png"/>
+        <div class="flex-1 flex flex-row items-center lg:ml-12">
+            <img class="w-20 mx-4" src="@assets/Logo.png" alt="Logo"/>
             <a href="tel:12266008629" class="text-white text-lg">+1 (226) 600-86-29</a>
         </div>
-        <div class="md:flex md:items-center">
-            <div class="cursor-pointer block md:hidden" @click="toggleMenu">
-                <img class="w-8 m-8" src="@assets/Menu.svg"/>
+        <div class="lg:flex lg:items-center">
+            <div class="cursor-pointer block lg:hidden" @click="toggleMenu">
+                <img class="w-8 m-8" src="@assets/Menu.svg" alt="Menu"/>
             </div>
             <div
                 :class="isOpen ? 'block' : 'hidden'"
-                class="md:flex-1 md:flex md:h-auto absolute right-0 h-screen bg-black justify-between items-center px-8"
+                class="lg:flex-1 lg:flex lg:h-auto absolute right-0 h-screen bg-black justify-between items-center px-8"
             >
                 <a
                     v-for="item in items"
                     :href="item.href"
-                    class="md:mx-3 block rounded p-2 text-white text-xl cursor-pointer hover:bg-gray-700"
+                    class="lg:mx-3 block rounded p-2 text-white text-xl cursor-pointer hover:bg-gray-700"
                 >
                     {{ item.title }}
                 </a>
