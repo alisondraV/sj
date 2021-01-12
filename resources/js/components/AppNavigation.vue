@@ -1,12 +1,12 @@
 <template>
     <nav class="bg-black flex p-3 fixed w-screen">
         <div class="flex-1 flex flex-row items-center lg:ml-12">
-            <img class="w-20 mx-4" src="@assets/Logo.png" alt="Logo"/>
+            <img class="w-16 md:w-20 mx-4" src="@assets/Logo.png" alt="Logo"/>
             <a href="tel:12266008629" class="text-white text-lg">+1 (226) 600-86-29</a>
         </div>
         <div class="lg:flex lg:items-center">
             <div class="cursor-pointer block lg:hidden" @click="toggleMenu">
-                <img class="w-8 m-8" src="@assets/Menu.svg" alt="Menu"/>
+                <img class="w-8 m-4" src="@assets/Menu.svg" alt="Menu"/>
             </div>
             <div
                 :class="isOpen ? 'block' : 'hidden'"
