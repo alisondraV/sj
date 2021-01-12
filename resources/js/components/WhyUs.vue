@@ -1,20 +1,22 @@
 <template>
-    <div class="min-h-screen bg-black px-20 flex flex-col justify-center">
-        <p class="text-white text-6xl mb-4">Why Us?</p>
-        <section class="grid grid-cols-2 gap-4">
-            <div
-                v-for="(item, index) in items"
-                :key="`${item.title}`"
-            >
-                <why-reason
-                    :description="item.description"
-                    :image="item.image"
-                    :key="index"
-                    :title="item.title"
+    <div class="flex justify-center min-h-screen bg-black">
+        <div class="flex flex-col justify-center">
+            <p class="text-white text-6xl mb-4">Why Us?</p>
+            <section class="grid grid-cols-2 gap-4">
+                <div
+                    v-for="(item, index) in items"
+                    :key="`${item.title}`"
                 >
-                </why-reason>
-            </div>
-        </section>
+                    <why-reason
+                        :description="item.description"
+                        :image="item.image"
+                        :key="index"
+                        :title="item.title"
+                    >
+                    </why-reason>
+                </div>
+            </section>
+        </div>
     </div>
 </template>
 
