@@ -4,7 +4,7 @@
             <img src="@assets/About.png" alt="About Us"/>
         </div>
         <div class="flex-1">
-            <p class="text-5xl tracking-widest text-right m-8">About Us</p>
+            <p class="text-4xl md:text-6xl tracking-widest text-right m-8">About Us</p>
             <p class="text-lg">
                 Hey! My name is Shkelqim Jairi. Painting and renovation have become my passion since 2014.
                 I’ve always been around it and I truly enjoy improving things around me.

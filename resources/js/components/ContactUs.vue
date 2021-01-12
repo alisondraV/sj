@@ -1,6 +1,6 @@
 <template>
     <div class="min-h-screen bg-black px-20 flex flex-col justify-center items-center">
-        <p class="text-white text-6xl mb-4">Contact Us</p>
+        <p class="text-white text-4xl md:text-6xl mb-4">Contact Us</p>
         <form method="post" @submit.prevent="sendEmail">
             <label class="text-white text-lg">Name:<br>
                 <input
@@ -20,7 +20,7 @@
             </label>
             <label class="text-white text-lg">Message:<br>
                 <textarea
-                    class="text-white bg-transparent border-b border-white mt-2 mb-6"
+                    class="text-white bg-transparent border-b border-white mt-2 mb-6 w-full"
                     cols="50"
                     placeholder="Please enter your message"
                     rows="3"

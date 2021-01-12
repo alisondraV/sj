@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center min-h-screen bg-black">
         <div class="flex flex-col justify-center">
-            <p class="text-white text-6xl mb-4">Why Us?</p>
+            <p class="text-4xl md:text-6xl text-white mb-4">Why Us?</p>
             <section class="grid grid-cols-2 gap-4">
                 <div
                     v-for="(item, index) in items"

@@ -1,6 +1,6 @@
 <template>
      <div class="min-h-screen flex flex-col items-center justify-center">
-        <div class="text-6xl mb-4">Our Works</div>
+        <p class="text-4xl md:text-6xl mb-4">Our Works</p>
         <carousel
             :per-page="1"
             paginationActiveColor="black"
