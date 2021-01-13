@@ -1,8 +1,10 @@
 <template>
     <div class="flex justify-center min-h-screen bg-black">
-        <div class="flex flex-col justify-center">
-            <p class="text-4xl md:text-6xl text-white mb-4">Why Us?</p>
-            <section class="grid grid-cols-2 gap-4">
+        <div class="flex flex-col justify-center px-8 mb-10">
+            <p class="text-center md:text-left text-4xl md:text-6xl text-white mb-1 md:mb-4 mt-24 md:mt-10">
+                Why Us?
+            </p>
+            <section class="grid md:grid-cols-2 gap-4">
                 <div
                     v-for="(item, index) in items"
                     :key="`${item.title}`"
