@@ -1,6 +1,6 @@
 <template>
-    <div class="min-h-screen bg-black px-20 flex flex-col justify-center items-center">
-        <p class="text-white text-4xl md:text-6xl mb-4">Contact Us</p>
+    <div class="min-h-screen bg-black px-10 md:px-20 flex flex-col justify-center items-center">
+        <p class="text-white text-4xl md:text-6xl mb-4 mt-24">Contact Us</p>
         <form method="post" @submit.prevent="sendEmail">
             <label class="text-white text-lg">Name:<br>
                 <input
@@ -32,7 +32,7 @@
                     type="submit"
                     id="submit"
                     value="Submit"
-                    class="p-3 rounded-2xl bg-transparent border-2 border-white text-white text-lg w-1/3"
+                    class="p-3 mb-6 rounded-2xl bg-transparent border-2 border-white text-white text-lg md:w-1/3"
                 >
             </div>
         </form>
