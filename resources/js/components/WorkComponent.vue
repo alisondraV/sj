@@ -1,9 +1,10 @@
 <template>
-    <table class="p-3" style="width: 80vw;">
+    <table class="p-3 flex flex-col items-center">
         <tr>
             <td class="flex justify-center">
                 <img
                     :src="require(`@assets/${image}`)"
+                    alt="Our Work"
                     class="custom-image"
                     width="65%"
                 >

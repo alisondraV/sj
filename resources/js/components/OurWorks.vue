@@ -1,17 +1,16 @@
 <template>
      <div class="min-h-screen flex flex-col items-center justify-center">
-        <p class="text-4xl md:text-6xl mb-4">Our Works</p>
+        <p class="text-4xl md:text-6xl mb-4 mt-10 md:mt-8">Our Works</p>
         <carousel
             :per-page="1"
             paginationActiveColor="black"
             paginationColor="grey"
-            class="w-1/2"
+            class="md:w-1/2 w-full"
             paginationPosition="bottom-overlay"
         >
             <template v-for="(item, index) in items">
                 <slide :key="index">
                     <work-component
-                        style="width: 50vw;"
                         :title="item.title"
                         :description="item.description"
                         :image="item.image">

@@ -1,10 +1,12 @@
 <template>
-    <div class="min-h-screen flex flex-row items-center px-20">
-        <div class="flex-1 flex justify-center">
+    <div class="min-h-screen flex lg:flex-row flex-col items-center px-10 mb-24 md:px-20">
+        <div class="flex-1 flex justify-center mt-24 md:mr-6 lg:mt-4 md:w-1/2">
             <img src="@assets/About.png" alt="About Us"/>
         </div>
         <div class="flex-1">
-            <p class="text-4xl md:text-6xl tracking-widest text-right m-8">About Us</p>
+            <p class="text-4xl md:text-6xl tracking-widest lg:text-right text-center md:m-4 md:mt-18 mt-4">
+                About Us
+            </p>
             <p class="text-lg">
                 Hey! My name is Shkelqim Jairi. Painting and renovation have become my passion since 2014.
                 I’ve always been around it and I truly enjoy improving things around me.
