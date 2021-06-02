@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Improve responsive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/AboutUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AboutUs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +243,7 @@
       <workItem from="1622641851190" duration="264000" />
       <workItem from="1622642216989" duration="401000" />
       <workItem from="1622642688492" duration="1161000" />
+      <workItem from="1622660837016" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="Import css">
       <created>1605379190380</created>
@@ -442,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622157976615</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Update dependencies">
+      <created>1622660873595</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1622660873595</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update starting page and add navigation" />
     <MESSAGE value="Update navigation styling" />
     <MESSAGE value="Add AboutUs page" />
     <MESSAGE value="Update MainPage and AboutUs styling" />
@@ -486,7 +491,8 @@
     <MESSAGE value="Add mobile layout for ContactUs page" />
     <MESSAGE value="Add mobile layout for WhyUs page" />
     <MESSAGE value="Improve responsive design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve responsive design" />
+    <MESSAGE value="Update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="904" y="201" key="#PHP" timestamp="1622642997910">
