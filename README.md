@@ -1,5 +1,5 @@
 # SJ's Painting
-This is a website created by using Laravel and Vue. 
+This is a website created with Laravel and Vue. 
 The contact form is used for sending the data via an email and adding it to the database.
 
 ## To Launch
