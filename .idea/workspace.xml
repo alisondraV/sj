@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa9baeb5-4393-4f1b-b864-0e811a3fe526" name="Default Changelist" comment="Improve responsive design">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
@@ -168,26 +170,40 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/assets" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/js/components" />
       <recent name="$PROJECT_DIR$/resources/js" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.All tests">
+    <configuration name="All tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
     <configuration name="ContactEntryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <CommandLine>
         <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP" />
+          <option name="interpreterName" value="PHP 7.4" />
         </PhpTestInterpreterSettings>
       </CommandLine>
       <TestRunner class="Tests\Feature\ContactEntryTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ContactEntryTest.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHPUnit.All tests" />
+      <item itemvalue="PHPUnit.ContactEntryTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.ContactEntryTest" />
@@ -226,6 +242,9 @@
       <workItem from="1614193178019" duration="3000" />
       <workItem from="1614437378732" duration="15000" />
       <workItem from="1621962231594" duration="6467000" />
+      <workItem from="1622641851190" duration="264000" />
+      <workItem from="1622642216989" duration="401000" />
+      <workItem from="1622642688492" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="Import css">
       <created>1605379190380</created>
@@ -470,6 +489,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Improve responsive design" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="904" y="201" key="#PHP" timestamp="1622642997910">
+      <screen x="0" y="25" width="1920" height="1014" />
+    </state>
+    <state x="904" y="201" key="#PHP/0.25.1920.1014@0.25.1920.1014" timestamp="1622642997910" />
+    <state x="693" y="185" width="1071" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622643002530">
+      <screen x="0" y="25" width="1920" height="1014" />
+    </state>
+    <state x="693" y="185" width="1071" height="854" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1014@0.25.1920.1014" timestamp="1622643002530" />
     <state x="497" y="286" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622164193427">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
